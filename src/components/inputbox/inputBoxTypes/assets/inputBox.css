@@ -1,0 +1,28 @@
+label {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.input-box {
+  width: 250px;
+  border-radius: 3px;
+  padding: 6px 6px;
+  border: 1px solid #aaa;
+  line-height: 14px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.input-box:focus {
+  outline: none;
+}
+
+.error-message-wrapper {
+  border: 1px solid red;
+  padding: 4px;
+  border-radius: 4px;
+  margin: 6px;
+  display: inline-block;
+  vertical-align: middle;
+}
