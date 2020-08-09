@@ -6,7 +6,7 @@ import InpuText from "./inputBoxTypes/inputText";
 import InputEmail from "./inputBoxTypes/inputEmail";
 import InputPassword from "./inputBoxTypes/inputPassword";
 
-import "./inputBoxTypes/assets/inputBox.css";
+import "./assets/inputBox.css";
 
 const InputBox = (props) => {
   const type = props.type.toLowerCase();
